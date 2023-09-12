@@ -154,17 +154,37 @@
     .developer {
         padding-left: 40px;
         padding-right: 30px;
-        margin-top: 50px;
+        margin-top: 48px;
+        margin-bottom: 48px;
     }
   }
 
 
-.summary{
+
+.head-summary{
+    text-align: justify;
+}
+
+.p-summary{
     text-align: justify;
 }
 
 
+@media screen and (max-width:800px) {
+    p.p-summary{
+    margin-right: 30px;
+    margin-left: 10px;
+    padding-top: 10px;
+       
+    }
 
+    .head-summary{
+        /* padding-right: 10px; */
+        margin: 10px 20px;
+        /* text-align: justify; */
+    }
+    
+}
 
 
 
