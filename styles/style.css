@@ -1,0 +1,270 @@
+/*  Navbar styles starts */
+
+.navbar{
+    /* position: absolute;
+    width: 1292px;
+    height: 42px;
+    left: calc(50% - 1292px/2 - 3.5px);
+    top: 23px; */
+    opacity: 0.9;
+    background-color: rgba(97, 100, 141, 0.9);
+}
+
+
+.navbar-brand{
+    margin-left: 30px;
+}
+
+/* When navbar is hovered it's contrast will become low */
+.navbar:hover{
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.nav-item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* To change the color of HOME */
+
+
+/* This selector is overridden by below selector. So below selector is applied */
+/* .nav-link.active{
+    color: rgb(221, 17, 17);
+} */
+
+/* OR  */
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+    color: rgb(239, 171, 26) ;
+}
+
+/*  To enlarge the size of HOME link when hover */
+.nav-link:hover{
+    transform: scale(1.25);
+}
+
+/* For smooth transition of hover on HOME link */
+.nav-link{
+    transition: transform 1s;
+} 
+
+
+
+
+/* To make the image transition (left of the name Aditya Sinha) */
+/* .navbar-brand img{
+    transition: all 3s;
+} */
+
+/*  TO rotate the image(left to the name Aditya Sinha) when it is hovered */
+/* .navbar-brand img:hover{
+    transform: rotate(0.02turn);
+} */
+
+
+
+/*  Navbar styles ends */
+
+
+
+
+
+
+/* Hero section styles starts */
+
+/*  Button style starts */
+
+/*  For HOME section buttons */
+.btn-secondary{
+    border-radius: 100px;
+    background-color: rgb(196, 189, 189);
+    color: black;
+}
+
+.btn-secondary:hover{
+    border-radius: 100px;
+}
+
+
+
+/* For ABOUT section buttons */
+.skill{
+    pointer-events: none;        /* For non-clickable mouse effect*/
+    border-radius: 2rem;
+    margin: 5px;
+    background-color: rgba(246, 65, 71, 0.908);
+}
+
+/*  Button style ends */
+
+
+
+.head-color{
+    color: rgba(69, 0, 86, 0.599);
+}
+
+
+.links{
+    text-decoration: none;
+    color:black;
+}
+
+/* hr{
+    margin-top: 18px;
+    margin-bottom: 8px;
+} */
+
+
+/* HOME section */
+
+/*  For nav image */
+
+/* .img-aditya{
+    border-radius: 46%;
+    margin-left: 10%;
+
+} */
+
+* {
+    box-sizing: border-box;
+  }
+
+.dev{
+   width: 100%;
+   height: auto;
+}
+
+
+
+
+/* If screen size is more than 600px wide, set the image padding to 250px */
+@media screen and (min-width: 800px){
+    .developer{
+        padding-left: 150px;
+        padding-right: 30px;
+        margin-top: 5px;
+    }
+}
+  
+  
+  /* If screen size is 800px wide, or less, set the image padding and margin to 150px and 50px */
+  @media screen and (max-width: 800px) {
+    .developer {
+        padding-left: 40px;
+        padding-right: 30px;
+        margin-top: 50px;
+    }
+  }
+
+
+.summary{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+/* WORK section */
+.card{
+    margin: 10%;
+    margin-bottom: 15%;
+    transition: transform .9s;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.card-img-top{
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+}
+
+.card:hover{
+    /* background-color: blueviolet; */
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+
+
+/*  ABOUT section */
+.degree{
+    margin-bottom: 8px;
+}
+
+
+.css{
+    padding-left: 100px;
+}
+
+
+
+.python{
+    padding-left: 30px;
+}
+
+.flask{
+    padding-left: 90px;
+}
+  
+  /* If screen size is 800px wide, or less, set the tech images */
+  @media screen and (max-width: 800px) {
+    .html{
+        padding-bottom: 25px;
+    }
+    .css{
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+    
+    .cplusplus{
+        padding-bottom: 25px;
+    }
+    
+    .mysql{
+        padding-top: 5px;
+        padding-bottom: 25px;
+    }
+
+    .python{
+        padding-left: 20px;
+    }
+    
+    .javascript{
+        padding-top: 5px;
+        padding-bottom: 25px;
+    }
+    
+    .flask{
+        padding-top: 5px;
+        padding-bottom: 13px;
+        padding-left: 20px;
+    }
+  }
+
+
+.education{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.study_image{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Footer Style */
+
+.footer{
+    margin-top: 5%;
+    padding: 12px;
+    background-color: rgb(231, 231, 179);
+}
+
+.lead{
+    margin: 10px;
+}
