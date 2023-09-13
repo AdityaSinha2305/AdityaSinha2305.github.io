@@ -50,16 +50,12 @@
 }
 
 
-
-
 .skill{
     pointer-events: none;        
     border-radius: 2rem;
     margin: 5px;
     background-color: rgba(246, 65, 71, 0.908);
 }
-
-
 
 
 
@@ -80,7 +76,7 @@
   }
 
 .dev{
-   width: 100%;
+   width: 450px;
    height: auto;
 }
 
@@ -88,10 +84,11 @@
 
 @media screen and (min-width: 800px){
     .developer{
-        padding-left: 150px;
-        padding-right: 30px;
-        margin-top: 5px;
+        padding-left: 190px;
+        padding-right: 20px;
+        margin-top: 20px;
     }
+
 }
   
 
@@ -103,6 +100,19 @@
     text-align: justify;
 }
 
+
+.code{
+    margin-left: 20px;
+}
+
+.loop{
+    font-style: italic;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(218, 132, 10);
+    text-align: left;
+    line-height: 0.8;
+}
   
   @media screen and (max-width: 800px) {
     .developer {
@@ -111,6 +121,8 @@
         margin-top: 48px;
         margin-bottom: 48px;
     }
+
+    
     .summary{
         margin-right: 30px;
         margin-left: 10px;
@@ -118,11 +130,15 @@
         text-align: left;
         }
     
-        .head_summary{
-            margin: 10px 20px;
-            text-align: left;
-        }
+    .head_summary{
+        margin: 10px 20px;
+        text-align: left;
+    }
 
+    .code{
+        text-align: left;
+        margin-left: 35px;
+    }
   }
 
 
