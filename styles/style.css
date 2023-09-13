@@ -148,6 +148,15 @@
     }
 }
   
+
+.head_summary{
+    text-align: justify;
+}
+
+.summary{
+    text-align: justify;
+}
+
   
   /* If screen size is 800px wide, or less, set the image padding and margin to 150px and 50px */
   @media screen and (max-width: 800px) {
@@ -157,34 +166,21 @@
         margin-top: 48px;
         margin-bottom: 48px;
     }
+    .summary{
+        margin-right: 30px;
+        margin-left: 10px;
+        padding-top: 80px;
+        text-align: left;
+        }
+    
+        .head_summary{
+            /* padding-right: 10px; */
+            margin: 10px 20px;
+            text-align: left;
+        }
+
   }
 
-
-
-.head-summary{
-    text-align: justify;
-}
-
-.p-summary{
-    text-align: justify;
-}
-
-
-@media screen and (max-width:800px) {
-    p.p-summary{
-    margin-right: 30px;
-    margin-left: 10px;
-    padding-top: 10px;
-       
-    }
-
-    .head-summary{
-        /* padding-right: 10px; */
-        margin: 10px 20px;
-        /* text-align: justify; */
-    }
-    
-}
 
 
 
