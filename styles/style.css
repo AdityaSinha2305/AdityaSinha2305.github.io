@@ -1,11 +1,11 @@
 /*  Navbar styles starts */
 
 .navbar{
-    /* position: absolute;
-    width: 1292px;
-    height: 42px;
-    left: calc(50% - 1292px/2 - 3.5px);
-    top: 23px; */
+    /* /* position: absolute; */
+    /* width: 1292px; */
+    /* height: 42px; */
+    /* left: calc(50% - 1292px/2 - 3.5px); */
+    /* top: 23px;  */
     opacity: 0.9;
     background-color: rgba(97, 100, 141, 0.9);
 }
