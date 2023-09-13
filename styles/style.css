@@ -193,7 +193,7 @@
     border-radius: 15px;
     border-color: black;
     margin-right: 50px;
-    margin-left: 30px;
+    margin-left: 23px;
 }
 
 .right{
@@ -202,8 +202,29 @@
     transition: transform .9s;
     border-radius: 15px;
     border-color: black; 
-    margin-right: 50px;
-    margin-left: 30px;
+    margin-right: 70px;
+}
+
+@media screen and (max-width:550px) {
+    .left{
+        margin-top: 50px;
+        margin-bottom: 110px;
+        transition: transform 0.8s;
+        border-radius: 15px;
+        border-color: black;
+        margin-right: 50px;
+        margin-left: 30px;
+    }
+    
+    .right{
+        margin-top: 50px;
+        margin-bottom: 110px;
+        transition: transform .9s;
+        border-radius: 15px;
+        border-color: black; 
+        margin-right: 50px;
+        margin-left: 30px;
+    }
 }
 
 .card-img-top{
@@ -212,8 +233,7 @@
 }
 
 .left:hover , .right:hover{
-    /* background-color: blueviolet; */
-    transform: scale(1.1);
+    transform: scale(1.09);
     border-radius: 15px;
 }
 
