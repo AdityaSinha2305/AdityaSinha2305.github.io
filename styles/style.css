@@ -193,7 +193,8 @@
     border-radius: 15px;
     border-color: black;
     margin-right: 50px;
-    margin-left: 23px;
+    margin-left: 50px;
+    max-width: 75%;
 }
 
 .right{
@@ -203,6 +204,7 @@
     border-radius: 15px;
     border-color: black; 
     margin-right: 70px;
+    max-width: 75%;
 }
 
 @media screen and (max-width:550px) {
