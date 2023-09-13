@@ -192,8 +192,8 @@
     transition: transform 0.8s;
     border-radius: 15px;
     border-color: black;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 10px;
+    margin-left: 60px;
     max-width: 75%;
 }
 
@@ -203,7 +203,8 @@
     transition: transform .9s;
     border-radius: 15px;
     border-color: black; 
-    margin-right: 70px;
+    margin-right: 10px;
+    margin-left: 60px;
     max-width: 75%;
 }
 
