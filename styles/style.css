@@ -186,20 +186,32 @@
 
 
 /* WORK section */
-.card{
-    margin: 10%;
-    margin-bottom: 15%;
-    transition: transform .9s;
+.left{
+    margin-top: 50px;
+    margin-bottom: 110px;
+    transition: transform 0.8s;
     border-radius: 15px;
     border-color: black;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.right{
+    margin-top: 50px;
+    margin-bottom: 110px;
+    transition: transform .9s;
+    border-radius: 15px;
+    border-color: black; 
+    margin-right: 50px;
+    margin-left: 30px;
 }
 
 .card-img-top{
- border-top-left-radius: 15px;
- border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
-.card:hover{
+.left:hover , .right:hover{
     /* background-color: blueviolet; */
     transform: scale(1.1);
     border-radius: 15px;
