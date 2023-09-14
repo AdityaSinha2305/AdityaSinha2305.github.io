@@ -19,7 +19,9 @@
     font-weight: bold;
 }
 
-
+.collapse{
+    margin-left: 15px;
+}
 
 .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
     color: rgb(239, 171, 26) ;
@@ -30,7 +32,7 @@
     transform: scale(1.25);
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
     .nav-link:hover{
         transform: scale(1.06);
     }
