@@ -30,6 +30,11 @@
     transform: scale(1.25);
 }
 
+@media screen and (max-width:600px) {
+    .nav-link:hover{
+        transform: scale(1.06);
+    }
+}
 
 .nav-link{
     transition: transform 1s;
