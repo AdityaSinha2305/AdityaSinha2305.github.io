@@ -173,6 +173,7 @@
     max-width: 75%;
 }
 
+@media screen and (min-width:800px) {
 .down{
     margin-top: 50px;
     margin-bottom: 110px;
@@ -180,11 +181,12 @@
     border-radius: 15px;
     border-color: black; 
     margin-right: 10px;
-    margin-left: 450px;
+    margin-left: 300px;
     max-width: 40%;
 }
+}
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:800px) {
     .left{
         margin-top: 50px;
         margin-bottom: 110px;
@@ -208,12 +210,12 @@
     .down{
         margin-top: 50px;
         margin-bottom: 110px;
-        transition: transform .9s;
+        transition: transform 0.8s;
         border-radius: 15px;
-        border-color: black; 
+        border-color: black;
         margin-right: 50px;
-        margin-left: 50px;
-        max-width: 70%;
+        margin-left: 55px;
+        max-width: 65%;
     }
 }
 
