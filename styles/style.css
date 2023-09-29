@@ -204,6 +204,17 @@
         margin-right: 50px;
         margin-left: 30px;
     }
+
+    .down{
+        margin-top: 50px;
+        margin-bottom: 110px;
+        transition: transform .9s;
+        border-radius: 15px;
+        border-color: black; 
+        margin-right: 50px;
+        margin-left: 50px;
+        max-width: 70%;
+    }
 }
 
 .card-img-top{
