@@ -173,6 +173,17 @@
     max-width: 75%;
 }
 
+.down{
+    margin-top: 50px;
+    margin-bottom: 110px;
+    transition: transform .9s;
+    border-radius: 15px;
+    border-color: black; 
+    margin-right: 10px;
+    margin-left: 450px;
+    max-width: 40%;
+}
+
 @media screen and (max-width:550px) {
     .left{
         margin-top: 50px;
@@ -200,7 +211,7 @@
     border-top-right-radius: 15px;
 }
 
-.left:hover , .right:hover{
+.left:hover , .right:hover , .down:hover{
     transform: scale(1.09);
     border-radius: 15px;
 }
