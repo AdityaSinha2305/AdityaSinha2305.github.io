@@ -156,9 +156,12 @@
     transition: transform .9s;
     border-radius: 15px;
     border-color: black; 
-    margin-left: 30%;
+    /* margin-left: 30%;
     margin-right: 20%;
-    max-width: 40% ;
+    max-width: 40% ; */
+    margin-right: 15%;
+    margin-left: 30%;
+    max-width: 600px;
 }
 
 .second{
@@ -167,9 +170,9 @@
     transition: transform .9s;
     border-radius: 15px;
     border-color: black; 
+    margin-right: 15%;
     margin-left: 30%;
-    margin-right: 20%;
-    max-width: 40% ;
+    max-width: 600px;
 }
 
 
@@ -179,9 +182,9 @@
     transition: transform 0.8s;
     border-radius: 15px;
     border-color: black;
+    margin-right: 15%;
     margin-left: 30%;
-    margin-right: 20%;
-    max-width: 40% ;
+    max-width: 600px;
 }
 
 
@@ -193,8 +196,9 @@
         transition: transform .9s;
         border-radius: 15px;
         border-color: black; 
-        margin-right: 30%;
-        margin-left: 30%;
+        margin-right: 10%;
+        margin-left: 19%;
+        max-width: 500px;
     }
 
     .second{
@@ -203,8 +207,9 @@
         transition: transform .9s;
         border-radius: 15px;
         border-color: black; 
-        margin-right: 30%;
-        margin-left: 30%;
+        margin-right: 10%;
+        margin-left: 19%;
+        max-width: 500px;
     }
 
     .third{
@@ -213,8 +218,9 @@
         transition: transform 0.8s;
         border-radius: 15px;
         border-color: black;
-        margin-right: 30%;
-        margin-left: 30%;
+        margin-right: 10%;
+        margin-left: 19%;
+        max-width: 500px;
     }
     
 }
@@ -227,10 +233,9 @@
         transition: transform .9s;
         border-radius: 15px;
         border-color: black; 
-        margin-right: 70px;
+        margin-right: 10%;
+        margin-left: 19%;
         max-width: 500px;
-        margin-left: 70px;
-        
     }
 
     .second{
@@ -239,8 +244,8 @@
         transition: transform .9s;
         border-radius: 15px;
         border-color: black; 
-        margin-right: 70px;
-        margin-left: 70px;
+        margin-right: 10%;
+        margin-left: 19%;
         max-width: 500px;
     }
 
@@ -250,8 +255,8 @@
         transition: transform 0.8s;
         border-radius: 15px;
         border-color: black;
-        margin-right: 70px;
-        margin-left: 70px;
+        margin-right: 10%;
+        margin-left: 19%;
         max-width: 500px;
     }
     
