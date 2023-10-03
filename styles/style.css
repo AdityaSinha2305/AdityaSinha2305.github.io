@@ -32,7 +32,7 @@
     transform: scale(1.25);
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:990px) {
     .nav-link:hover{
         transform: scale(1.06);
     }
@@ -158,7 +158,7 @@
     border-color: black; 
     margin-left: 30%;
     margin-right: 20%;
-    max-width: 650px ;
+    max-width: 40% ;
 }
 
 .second{
