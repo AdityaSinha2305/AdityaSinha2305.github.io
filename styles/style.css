@@ -178,6 +178,18 @@
 
 .third{
     margin-top: 50px;
+    margin-bottom: 50px;
+    transition: transform 0.8s;
+    border-radius: 15px;
+    border-color: black;
+    margin-right: 15%;
+    margin-left: 30%;
+    max-width: 550px;
+}
+
+
+.fourth{
+    margin-top: 50px;
     margin-bottom: 110px;
     transition: transform 0.8s;
     border-radius: 15px;
@@ -190,34 +202,12 @@
 
 @media screen and (min-width:680px) and (max-width:1000px) {
 
-    .first{
+    .first , .second , .third , .fourth{
         margin-top: 50px;
         margin-bottom: 110px;
         transition: transform .9s;
         border-radius: 15px;
         border-color: black; 
-        margin-right: 10%;
-        margin-left: 19%;
-        max-width: 500px;
-    }
-
-    .second{
-        margin-top: 50px;
-        margin-bottom: 110px;
-        transition: transform .9s;
-        border-radius: 15px;
-        border-color: black; 
-        margin-right: 10%;
-        margin-left: 19%;
-        max-width: 500px;
-    }
-
-    .third{
-        margin-top: 50px;
-        margin-bottom: 110px;
-        transition: transform 0.8s;
-        border-radius: 15px;
-        border-color: black;
         margin-right: 10%;
         margin-left: 19%;
         max-width: 500px;
@@ -227,34 +217,12 @@
 
 @media screen and (max-width:680px) {
 
-    .first{
+    .first , .second , .third , .fourth{
         margin-top: 50px;
         margin-bottom: 110px;
         transition: transform .9s;
         border-radius: 15px;
         border-color: black; 
-        margin-right: 10%;
-        margin-left: 19%;
-        max-width: 500px;
-    }
-
-    .second{
-        margin-top: 50px;
-        margin-bottom: 110px;
-        transition: transform .9s;
-        border-radius: 15px;
-        border-color: black; 
-        margin-right: 10%;
-        margin-left: 19%;
-        max-width: 500px;
-    }
-
-    .third{
-        margin-top: 50px;
-        margin-bottom: 110px;
-        transition: transform 0.8s;
-        border-radius: 15px;
-        border-color: black;
         margin-right: 10%;
         margin-left: 19%;
         max-width: 500px;
@@ -267,7 +235,7 @@
     border-top-right-radius: 15px;
 }
 
-.third:hover , .second:hover , .first:hover{
+.fourth:hover , .third:hover , .second:hover , .first:hover{
     transform: scale(1.09);
     border-radius: 15px;
 }
