@@ -74,11 +74,32 @@
                         <p><input class="" id="Subject" type="text" placeholder="Subject" required name="Subject"></p>
                         <p><input class="" id="Message" type="text" placeholder="Message" required name="Message"></p> 
                         <br/>
-                        <p><button class="" type="submit"><i class="fa fa-paper-plane"></i> SEND MESSAGE </button></p>
+                        <p><button class="" type="submit" onclick="validate()"><i class="fa fa-paper-plane"></i> SEND MESSAGE </button></p>
                     </form>
                 </div>
             </div>
 
+            <script>
+                function validate(){
+                    var name = document.getElementById("Name").value;
+                    var email = document.getElementById("EmailId").value;
+                    var subject = document.getElementById("Subject").value;
+                    var message = document.getElementById("Message").value;
+
+                    if (name === "" || email === "" || subject=== "" || message === "") {
+                        alert("Please fill all the fields.");
+                        return false;
+                    } 
+                    else {
+                        notify();
+                        return true;
+                    }
+                }
+
+                function notify(){
+                    alert("Thanks for sending message😀..Have a nice day")
+                }
+            </script>
 
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 pt-4 ps-5">
