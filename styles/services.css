@@ -1,0 +1,114 @@
+/* New css file for new changes like services and linkedin button on contact page (19/03/2024) */
+
+
+/* Profile Card */
+.profilecard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto; 
+  margin-top: 4%;
+  /* margin-left: 20%;  */
+  text-align: center;
+  font-family: arial;
+}
+
+.profilecard > img {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 15%;
+}
+
+.profilecard > .title {
+  color: rgb(108, 104, 104);
+  font-size: 18px;
+}
+
+.profilecard button {
+  border: none;
+  /* border-radius: 15px; */
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #39a5fe;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+  font-size: 18px;
+}
+
+.profilecard a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  margin-left: 5px;
+}
+
+.profilecard button:hover, .profilecard a:hover {
+  opacity: 0.8;
+}
+
+
+
+/*  SERVICES OFFERED */
+
+
+/* Services */
+
+
+.service-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .service-description {
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+  }
+
+
+
+
+
+/* For footer to  be at bottom */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body fills the entire viewport height */
+}
+
+main {
+  flex-grow: 1; /* Allow the main content to grow and fill the available space */
+}
+
+footer {
+  margin-top: auto; /*Push the footer to the bottom */
+}
+
+
+/* For giving margin of "Feel free to hire me" */
+#contact{
+  margin-top: 30px;
+}
+
+
+@media screen and (max-width:765px){
+  .service{
+    margin-top: 15%;
+  }
+
+  footer {
+    margin-top: 15%; /*Push the footer to the bottom */
+  }
+  
+
+}
