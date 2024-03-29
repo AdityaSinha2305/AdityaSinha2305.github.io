@@ -76,6 +76,29 @@
   }
 
 
+/* Superprof service */
+  
+.superprof-form {
+  margin-top: 10px;
+}
+
+.superprof-button {
+  /* background-color: #007bff; */
+  background-color: #c916ed;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.superprof-button:hover {
+  /* background-color: #0056b3; */
+  background-color: #34b358;
+}
+
+
 /* Linkedin Button */
 .lb {
   font-family: Arial, Helvetica, sans-serif;
@@ -124,6 +147,7 @@ footer {
 @media screen and (max-width:765px){
   .service{
     margin-top: 15%;
+    margin-right: 5%;
   }
 
   footer {
