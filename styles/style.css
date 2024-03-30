@@ -56,6 +56,10 @@
     border-radius: 100px;
 }
 
+.msgbtn{
+    border-radius: 5px;
+    background-color:rgb(253, 197, 42);
+}
 
 .skill{
     pointer-events: none;        
