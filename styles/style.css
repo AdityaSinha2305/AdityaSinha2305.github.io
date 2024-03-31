@@ -245,8 +245,8 @@
         transition: transform .9s;
         border-radius: 15px;
         border-color: black; 
-        margin-right: 40px;
-        margin-left: 60px;
+        margin-right: 20px;
+        margin-left: 25px;
         max-width: 450px;
     }
 
@@ -254,7 +254,8 @@
     .sourcecode{
         background-color: rgb(210, 226, 163);
         margin-top: 2%;
-        margin-left: 28%;
+        /* margin-left: 28%; */
+        margin-left: 22%;
         border-radius: 10px;
     }
     
