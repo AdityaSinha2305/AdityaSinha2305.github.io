@@ -153,6 +153,19 @@
   }
 
 
+/* Projects */
+
+/* project text styling */
+.card-text{
+    text-align: justify;
+}
+
+/* source code button */
+.sourcecode{
+    background-color: rgb(210, 226, 163);
+    margin-left: 30%;
+    border-radius: 10px;
+}
 
 .first{
     margin-top: 50px;
@@ -164,7 +177,7 @@
     margin-right: 20%;
     max-width: 40% ; */
     margin-right: 15%;
-    margin-left: 30%;
+    margin-left: 36%;
     max-width: 550px;
 }
 
@@ -175,7 +188,7 @@
     border-radius: 15px;
     border-color: black; 
     margin-right: 15%;
-    margin-left: 30%;
+    margin-left: 36%;
     max-width: 550px;
 }
 
@@ -187,7 +200,7 @@
     border-radius: 15px;
     border-color: black;
     margin-right: 15%;
-    margin-left: 30%;
+    margin-left: 36%;
     max-width: 550px;
 }
 
@@ -199,8 +212,13 @@
     border-radius: 15px;
     border-color: black;
     margin-right: 15%;
-    margin-left: 30%;
+    margin-left: 36%;
     max-width: 550px;
+}
+
+/* whole card */
+.card{
+    max-width: 400px;
 }
 
 
@@ -223,13 +241,21 @@
 
     .first , .second , .third , .fourth{
         margin-top: 50px;
-        margin-bottom: 110px;
+        margin-bottom: 50px;
         transition: transform .9s;
         border-radius: 15px;
         border-color: black; 
-        margin-right: 10%;
-        margin-left: 19%;
-        max-width: 500px;
+        margin-right: 40px;
+        margin-left: 60px;
+        max-width: 450px;
+    }
+
+    /* source code button */
+    .sourcecode{
+        background-color: rgb(210, 226, 163);
+        margin-top: 2%;
+        margin-left: 28%;
+        border-radius: 10px;
     }
     
 }
