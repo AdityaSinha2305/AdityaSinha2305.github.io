@@ -76,6 +76,28 @@
   }
 
 
+/* Service Form button */
+.service-form {
+  margin-top: 10px;
+}
+
+.service-button {
+  /* background-color: #007bff; */
+  background-color: #606ddc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.service-button:hover {
+  /* background-color: #0056b3; */
+  background-color: #34b358;
+}
+
+
 /* Superprof service */
   
 .superprof-form {
@@ -84,7 +106,7 @@
 
 .superprof-button {
   /* background-color: #007bff; */
-  background-color: #a814c5;
+  background-color: #b521d3;
   color: #fff;
   border: none;
   padding: 10px 20px;
