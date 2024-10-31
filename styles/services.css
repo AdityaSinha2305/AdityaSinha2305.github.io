@@ -153,7 +153,8 @@
 }
 
 .github-profile-section {
-  background-color: #fda6a6;
+  /* background-color: #fda6a6; */
+  background-color: #c6f356;
   padding: 20px;
   max-width: 500px;
   text-align: center;
